@@ -1,0 +1,149 @@
+
+/**********************/
+/* BELOW 1344PX ()smaller desktops */
+/**********************/
+
+@media (max-width: 84em) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+
+
+
+
+/* BELOW 1200px (Smaller desktops) */
+
+    @media (max-width: 75em) {
+    html {
+        font-size: 50%;
+    }
+
+
+    .sub-header {
+        font-size: 4.4rem;
+    }
+
+    .sub-heading {
+        font-size: 1.4rem;
+    }
+
+    .section-header {
+        font-size: 3.2rem;
+    }
+
+
+    .footer-inner {
+        grid-template-columns: 1fr 1fr 1.5fr;
+    }
+    
+}
+
+/* BELOW 944px (landscape ipads) */
+
+@media (max-width: 59em) {
+    
+
+    .sub-header {
+        font-size: 5.2rem;
+    }
+
+
+    .hero {
+        grid-template-columns: 1fr;
+        padding: 0 9.6rem;
+        gap: 15.0rem;
+    }
+
+    .hero-text-box,
+    .hero-image-box {
+        text-align: center;
+    }
+
+    .sub-paragraph {
+        margin-bottom: 3.2rem;
+    }
+
+    .hero-button {
+        justify-content: center;
+    }
+
+    .hero-img {
+        max-width: 60%;
+    }
+
+    .section-2 {
+        padding: 9.6rem 2.4rem 6.4rem 2.4rem;
+     }
+
+    .number {
+        font-size: 7.2rem;
+    }
+
+    .section-video {
+        padding: 4.8rem 2.4rem 9.6rem 2.4rem;        
+     }
+
+
+    .section-3-feature {
+        grid-template-columns: 1.5fr 2fr;
+    }
+
+    .footer-inner {
+        gap: 1.2rem;
+    }
+    
+}
+
+
+
+/* BELOW 752px */
+
+@media (max-width: 47em) {
+    
+    html {
+        font-size: 43.75%;
+    }
+
+    .section-2 {
+        padding: 9.6rem 2.4rem 6.4rem 2.4rem;
+     }
+
+
+    .section-3-feature {
+        grid-template-columns: 1fr;       
+    }
+
+
+    .section-3-img {
+        max-width: 100%;
+     }
+
+     .article-text-box {
+        grid-template-columns: repeat(2, 1fr);
+     }
+
+
+     .section-video {
+        padding: 4.8rem 2.4rem 9.6rem 2.4rem;
+        
+     }
+
+     .section--3-text-box {
+        padding: 3.2rem 4.8rem;
+     }
+
+     .footer-text-img {
+         grid-template-columns: 1fr 3fr;
+        }
+    }
+    
+    @media (max-width: 34em) {
+
+    
+    .article-paragraph {
+        font-size: 1.35rem;
+    }
+
+}
