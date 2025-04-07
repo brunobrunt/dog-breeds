@@ -23,7 +23,7 @@
         <version>3.4.0</version>
         <configuration>
           <!-- Specify where the web.xml file is located -->
-          <webxml>src/main/webapp/WEB-INF/web.xml</webxml>
+          <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
         </configuration>
       </plugin>
     </plugins>
